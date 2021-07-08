@@ -1,0 +1,33 @@
+.formulario-cadastro {
+    display: flex;
+    flex-direction: column;
+    border-right: 2px solid rgb(201, 201, 201);
+    padding: 2rem;
+    height: 100vh;
+}
+
+.formulario-cadastro_input {
+    padding: .5rem;
+    border: none;
+    background-color: #ebebeb;
+    margin: .25rem;
+    width: 400px;
+    border-radius: 5px;
+}
+
+.formulario-cadastro_input.form-textarea {
+    height: 200px;
+}
+
+.formulario-cadastro_botao {
+    width: 100px;
+    margin: 0 auto;
+    margin-top: 1rem;
+    color: white;
+    background-color: rgb(31, 31, 70);
+    border: none;
+    padding: .5rem;
+    border-radius: 5px;
+    font-size: .9rem;
+    cursor: pointer;
+}

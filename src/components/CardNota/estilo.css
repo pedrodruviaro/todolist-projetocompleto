@@ -1,0 +1,27 @@
+.card-nota {
+    background-color: #ebebeb;
+    padding: 1rem;
+    border-radius: 5px;
+    max-width: 250px;
+    margin: 1rem;
+}
+
+.card-nota_cabecalho {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 1rem;
+}
+
+.card-nota_titulo {
+    font-size: 1.1rem;
+    margin: 0;
+}
+
+.card-nota-delete {
+    cursor: pointer;
+}
+
+.card-nota_categoria {
+    color: rgb(78, 78, 78);
+}

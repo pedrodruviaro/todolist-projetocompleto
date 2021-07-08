@@ -1,0 +1,22 @@
+.lista-categorias {
+    display: flex;
+    justify-content: space-between;
+
+    padding: 2rem;
+}
+
+.lista-categorias_lista {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.lista-categorias_item {
+    background-color: rgb(31, 31, 70);
+    border: none;
+    border-radius: 5px;
+    padding: .35rem;
+    font-size: .9rem;
+    color: white;
+    margin: 0 1rem;
+}
